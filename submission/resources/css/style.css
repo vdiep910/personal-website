@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Home Page Styles */
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+
+.resume-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hobbies Page Styles */
+.hobbies-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 190px; 
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Projects Page Styles */
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project-card {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Resume Page Styles */
+.resume-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px; 
+}
+
+
+.resume-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.resume-container h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.resume-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.resume-container ul li {
+    margin-bottom: 10px;
+}
+
+.resume-container a {
+    color: #0077b5;
+    text-decoration: none;
+}
+
+.resume-container a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #0077b5; /* LinkedIn blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005f8b; /* Darker blue on hover */
+}
+
+.download-container {
+    text-align: center; 
+    margin-top: 20px;
+    padding-bottom: 300px; /* Prevents footer overlap */
+}
